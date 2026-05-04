@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from matej import (
+from F1_baza.py import (
     MIN_LETO, PREDPOMNILNIK,
     poisci_voznika, cez_seje, normaliziraj, uradno_ime,
 )
